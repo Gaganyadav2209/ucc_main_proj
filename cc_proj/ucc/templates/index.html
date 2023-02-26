@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>view|HOME</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'index.css'%}">
+</head>
+<body>
+    <div id="home">
+    <div class="container">
+    <h1 class="logo">VIEW FINANCE</h1>
+</div>
+<div class="navbar">
+    <nav class="top-nav">
+        <a href="#Home" class="navlink">HOME</a>
+        <a href="#finance"  class="navlink">FINANANCE</a>
+        <a href="#invest"   class="navlink">INVEST</a>
+        
+    </nav>
+
+
+</div>
+<div class="intro">
+<div class="in-left">
+    <p class="intextleft">WELCOME TO INDIA'S LEADING FINANCE PLATFORM</p>
+    <p class="intextright">*Start Investing Today</p>
+</div>
+
+  <div class="login">
+
+    <a href="/login" class="navcenter">Login</a>
+    <a href="/signup"  class="navcenter">Signup</a>
+
+  </div>
+<div class="in-right">
+    <p class="intextleft2">VIEW FINANCE© was founded in the year 2018 with an aim to 
+        provide best finance services across India. </p>
+</div>
+
+</div>
+</div>
+<div id="finance">
+<div class="content-heading">
+<h2 class="heading">FINANCIAL SERVICES  OFFERED</h2>
+</div>
+<div class="card">
+    
+<div class="cards">
+    <ul>
+        <li>Personal Loans</li>
+        <li> Auto Loans</li>
+        <li>Students Loans</li>
+        <li>Gold Loans</li>
+        <li>Mortgage Loans</li>
+        <li>Home Equity Loans</li>
+        <li>Credit-builder Loans</li>
+        <li>Debit Consolidation Loans</li>
+
+    </ul>
+
+</div>
+
+<div class="cards">
+    <ul>
+        <li>Payday Loans</li>
+        <li> Small business Loans</li>
+        <li>Pawnshop Loans</li>
+        <li>Tile Loans</li>
+        <li>Boat Loans</li>
+        <li>RV Loans</li>
+        <li>Family Loans</li>
+        <li>Land Loans</li>
+
+    </ul>
+
+
+</div>
+<div class="cards">
+    <ul>
+        <li>Pool Loans</li>
+        <li> Auto Loans</li>
+        <li>International Loans</li>
+        <li>Diamond Loans</li>
+        <li>Capital Loans</li>
+        <li>Venture Loans</li>
+        <li>Luxury Loans</li>
+        <li>Investment</li>
+
+    </ul>
+
+
+</div>
+
+</div>
+</div>
+<div id="invest">
+<div class="content-heading">
+<h2 class="heading">INVESTMENT SERVICES  OFFERED</h2>
+</div>
+<div class="card2">
+    
+    <div class="cardspad">
+        <ul>
+            <li>Mutual Funds</li>
+            <li>Stocks</li>
+            <li>Bonds</li>
+            <li>ETFs</li>
+            <li>Provident Funds</li>
+           
+    
+        </ul>
+    
+    </div>
+    <div class="cardspad">
+        <ul>
+         
+            <li>Fixed Deposit</li>
+            <li>Retirement Planning</li>
+            <li>Cash and Cash eqv</li>
+            <li>Real Estate</li>
+            <li>Insurance</li>
+    
+        </ul>
+    
+    </div>
+   
+  
+    
+</div>
+</div>
+
+<div class="info">
+<div>
+ <h2 class="contact">Contact Us:</h3>
+ </div>
+
+   <div class="form">
+   <form>
+   
+    <div class="innerform">
+    <p class="labels">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" placeholder="Your Name" required>
+    </p>
+    <p class="labels">
+        <label for="email">Your Email:</label>
+        <input type="email" id="emale" placeholder="Abcd@gmail.com" required>
+    </p>
+    <p class="labels">
+        <label for="phone">Phone No:</label>
+        <input type="tel" id="number" placeholder="9274xxxxxx" pattern="[1-9]{2}-[0-9]{10}" required>
+    </p>
+    <p class="labels">
+        <label for="query">Query:</label>
+      <textarea name="query" id="query" cols="30" rows="2"></textarea>
+    </p>
+  <input type="submit" id="submit" value="Submit">
+    <p class="message">Our executive will get back to you once he verifies that credentials are correct.</p>
+    <p class="message">Our waiting time is generally 30 minutes.</p>
+   </div>
+
+   </form>
+
+   </div>
+</div>
+
+<div class="footer-main">
+    <h2 class="foot-links">Quick Links</h2>
+
+    <div class="items">
+        <div class="item1">
+            <ul class="foot">
+                <li class="desc">Terms and conditions</li>
+                <li class="desc">Fraud prevention</li>
+                <li class="desc">Privacy and Security</li>
+                <li class="desc">Key Financials</li>
+               
+              
+            </ul>
+        </div>
+        <div class="item2">
+            <ul class="foot">
+                <li class="desc">GC consumer loan</li>
+                <li class="desc">GC Personal loan</li>
+                <li class="desc">Policies</li>
+                <li class="desc">Refund Policy</li>
+            </ul>
+
+        </div>
+        <div class="item3">
+            <ul class="foot">
+                <li class="desc">Late Fees</li>
+                <li class="desc">Loan application</li>
+                <li class="desc">Fair Practice</li>
+                <li class="desc">Code of conduct</li>
+               
+        </div>
+    </div>
+
+</div>
+
+<div class="end-footer">
+    <p>Maintained and owned by <b>VIEW FINANCE©</b></p>
+</div>
+
+</body>
+</html>
